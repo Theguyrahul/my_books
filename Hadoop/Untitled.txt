@@ -1,0 +1,386 @@
+
+1 point
+HDFS provides a command line interface called __________ used to interact with HDF
+
+“FS Shell”
+
+
+
+1 point
+Point out the correct statement.
+
+
+MapReduce tries to place the data and the compute as close as possible
+
+
+1 point
+______________ class allows the Map/Reduce framework to partition the map outputs based on certain key fields, not the whole keys.
+
+
+KeyFieldBasedPartitioner
+
+
+
+1 point
+________ systems are scale-out file-based (HDD) systems moving to more uses of memory in the nodes.
+
+
+NoSQL
+
+
+As companies move past the experimental phase with Hadoop, many cite the need for additional capabilities, including _______________
+
+
+Improved security, workload management, and SQL support
+
+
+1 point
+__________ are highly resilient and eliminate the single-point-of-failure risk with traditional Hadoop deployments.
+
+Isilon solutions
+
+
+1 point
+________ is a platform for constructing data flows for extract, transform, and load (ETL) processing and analysis of large datasets.
+
+
+
+Pig
+
+
+1 point
+Streaming supports streaming command options as well as _________ command options.
+
+
+generic
+
+
+
+
+1 point
+HDFS and NoSQL file systems focus almost exclusively on adding nodes to ____________
+
+
+Scale out
+
+
+
+1 point
+Hive also support custom extensions written in ____________
+
+
+Java
+
+
+
+1 point
+Hadoop is a framework that works with a variety of related tools. Common cohorts include ____________
+
+
+MapReduce, Hive and HBase
+
+
+
+_________ is the primary interface for a user to describe a MapReduce job to the Hadoop framework for execution.
+
+
+JobConf
+
+
+
+
+The need for data replication can arise in various scenarios like ____________
+
+
+All of the mentioned
+
+
+1 point
+ A ________ serves as the master and there is only one NameNode per cluster.
+
+
+
+
+NameNode
+
+
+
+1 point
+The ________ option allows you to copy jars locally to the current working directory of tasks and automatically unjar the files.
+
+
+archives
+
+
+
+1 point
+What was Hadoop named after?
+
+
+
+The toy elephant of Cutting’s son
+
+
+
+
+1 point
+Which of the following phases occur simultaneously?
+
+
+Shuffle and Sort
+
+
+
+
+1 point
+Point out the wrong statement.
+
+
+
+The programming model, MapReduce, used by Hadoop is difficult to write and test
+
+
+
+
+1 point
+___________ part of the MapReduce is responsible for processing one or more chunks of data and producing the output results.
+
+
+Maptask
+
+
+
+1 point
+Mapper implementations are passed the JobConf for the job via the ________ method.
+
+
+
+JobConfigurable.configure
+
+
+
+
+1 point
+ __________ has the world’s largest Hadoop cluster.
+
+
+Facebook
+
+
+
+_________ hides the limitations of Java behind a powerful and concise Clojure API for Cascading.
+
+
+
+Cascalog
+
+
+1 point
+The right number of reduces seems to be ____________
+
+
+
+0.95
+
+
+
+
+1 point
+All of the following accurately describe Hadoop, EXCEPT ____________
+
+
+
+Real-time
+
+
+.
+1 point
+Point out the correct statement.
+
+
+
+Hadoop 2.0 allows live stream processing of real-time data<<<<<<
+
+
+In the Hadoop programming framework output files are divided into lines or records(chatgpt)
+
+
+
+
+
+1 point
+Facebook Tackles Big Data With _______ based on Hadoop.
+
+
+‘Project Prism’
+
+
+
+
+
+1 point
+__________ can best be described as a programming model used to develop Hadoop-based applications that can process massive amounts of data.
+
+
+MapReduce
+
+
+
+1 point
+The ___________ can also be used to distribute both jars and native libraries for use in the map and/or reduce tasks.
+
+
+
+
+DistributedCache
+
+
+
+
+1 point
+Mapper and Reducer implementations can use the ________ to report progress or just indicate that they are alive.
+
+
+Reporter
+
+
+
+
+The output of the _______ is not sorted in the Mapreduce framework for Hadoop.
+
+
+None of the mentioned
+
+
+1 point
+Point out the correct statement.
+
+
+Hive is not a relational database, but a query engine that supports the parts of SQL specific to querying data
+
+
+
+1 point
+________ NameNode is used when the Primary NameNode goes down.
+
+
+
+
+Secondary
+
+
+
+
+1 point
+HBase provides ___________ like capabilities on top of Hadoop and HDFS.
+
+
+
+Bigtable
+
+
+
+1 point
+To set an environment variable in a streaming command use ____________
+
+
+
+-cmdenv EXAMPLE_DIR=/home/example/dictionaries/
+
+
+
+1 point
+A ________ node acts as the Slave and is responsible for executing a Task assigned to it by the JobTracker.
+
+
+
+
+TaskTracker
+
+
+
+__________ refers to incremental costs with no major impact on solution design, performance and complexity.
+
+
+
+Scale-up
+
+
+
+
+Hadoop data is not sequenced and is in 64MB to 256MB block sizes of delimited record values with schema applied on read based on ____________
+
+
+HCatalog<<<<
+
+
+Hive
+(chatgpt)
+
+
+
+
+
+1 point
+ Point out the wrong statement.
+
+ Applications typically implement the Mapper and Reducer interfaces to provide the map and reduce methods.(bard)<<<<
+
+
+
+The MapReduce framework operates exclusively on <key, value> pairs  (chatgpt)
+
+
+None of the mentioned
+
+
+1 point
+Which is the most popular NoSQL database for scalable big data store with Hadoop?
+
+
+Hbase
+
+
+
+
+1 point
+Point out the wrong statement.
+
+
+Elastic MapReduce (EMR) is Facebook’s packaged Hadoop offering
+
+
+
+
+1 point
+According to analysts, for what can traditional IT systems provide a foundation when they’re integrated with big data technologies like Hadoop?
+
+
+
+
+Data warehousing and business intelligence
+
+
+
+_________ function is responsible for consolidating the results produced by each of the Map() functions/tasks.
+
+
+Reduce
+
+
+
+
+Which of the following Hadoop streaming command option parameter is required?
+
+
+
+all of the mentioned
+
+
+
+HDFS works in a __________ fashion
+
+
+
+master-slave
+

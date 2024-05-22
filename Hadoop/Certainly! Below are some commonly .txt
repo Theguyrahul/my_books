@@ -1,0 +1,59 @@
+Certainly! Below are some commonly used HDFS (Hadoop Distributed File System) commands along with explanations for each:
+
+1. **hdfs dfs -ls /path/to/directory:**
+   List the contents of a directory in HDFS.
+   - `/path/to/directory`: The path to the directory in HDFS.
+
+2. **hdfs dfs -mkdir /path/to/new/directory:**
+   Create a new directory in HDFS.
+   - `/path/to/new/directory`: The path to the new directory to be created in HDFS.
+
+3. **hdfs dfs -copyFromLocal localfile /path/in/hdfs:**
+   Copy a file from the local filesystem to HDFS.
+   - `localfile`: The path to the file on the local filesystem.
+   - `/path/in/hdfs`: The destination path in HDFS.
+
+4. **hdfs dfs -copyToLocal /path/in/hdfs localfile:**
+   Copy a file from HDFS to the local filesystem.
+   - `/path/in/hdfs`: The path to the file in HDFS.
+   - `localfile`: The destination path on the local filesystem.
+
+5. **hdfs dfs -get /path/in/hdfs localfile:**
+   Download a file from HDFS to the local filesystem.
+   - `/path/in/hdfs`: The path to the file in HDFS.
+   - `localfile`: The destination path on the local filesystem.
+
+6. **hdfs dfs -put localfile /path/in/hdfs:**
+   Upload a file from the local filesystem to HDFS (opposite of `copyToLocal`).
+   - `localfile`: The path to the file on the local filesystem.
+   - `/path/in/hdfs`: The destination path in HDFS.
+
+7. **hdfs dfs -rm /path/in/hdfs:**
+   Delete a file from HDFS.
+   - `/path/in/hdfs`: The path to the file in HDFS.
+
+8. **hdfs dfs -rmdir /path/in/hdfs:**
+   Remove an empty directory from HDFS.
+   - `/path/in/hdfs`: The path to the directory in HDFS.
+
+9. **hdfs dfs -du -h /path/in/hdfs:**
+   Display the size of files and directories in HDFS.
+   - `/path/in/hdfs`: The path to the file or directory in HDFS.
+   - `-h`: Human-readable format.
+
+10. **hdfs dfs -mv /path/in/hdfs /new/path/in/hdfs:**
+    Move or rename a file or directory in HDFS.
+    - `/path/in/hdfs`: The source path in HDFS.
+    - `/new/path/in/hdfs`: The destination path in HDFS.
+
+11. **hdfs dfs -chmod permissions /path/in/hdfs:**
+    Change permissions of a file or directory in HDFS.
+    - `permissions`: Numeric representation of permissions (e.g., 755).
+
+12. **hdfs dfsadmin -report:**
+    Display a report of the status of the HDFS, including cluster information, node status, and capacity.
+
+13. **hdfs dfsadmin -safemode enter/leave/get:**
+    Enter, leave, or get the status of HDFS safe mode. Safe mode is a state in which HDFS read-only operations are allowed but write operations are blocked.
+
+These commands provide basic functionality for managing files and directories in HDFS. Make sure to replace `/path/to/directory` and other placeholders with actual paths relevant to your HDFS setup. For more information and additional commands, you can refer to the official Hadoop documentation.

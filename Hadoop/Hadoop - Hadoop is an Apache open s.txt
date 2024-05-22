@@ -1,0 +1,23 @@
+Hadoop - Hadoop is an Apache open source framework written in java hat allows distributed processing of large datasets across clusters of computers using simple programming models.
+
+Hadoop architecture - processing/ Computational layer(MapReduce) & Storage layer(HDFS)
+
+MapReduce - is a parallel programming model for writing distributed applications devised at google for efficient processing of large amounts of data (multi TB data-sets), on large clusters(thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner.
+
+HDFS - is based on google file system and provides a distributed file System that is designed to run on commodity hardware. Difference with other distributed file system - highly fault-tolerant and is designed to be deployed on low-cost hardware.suitable for applications having large datasets.
+
+Hadoop common - these are java libraries and utilities required by other Hadoop modules.
+
+Hadoop YARN - This is a framework for job scheduling and cluster resource management.
+ 
+Hadoop core tasks - * data is initially divided into directories and files.
+
+*Files are divided into uniform sized blocks of 128M and 64M 
+*These files are then distributed across various cluster nodes for further processing.
+*HDFS being on top of local file system , supervises the processing.
+*blocks are replicated for handling hardware faliure.
+*Checking that the code was executed successfully.
+* performing the sort that takes place between the map and reduce stages.
+*sending sorted data to certain computer.
+* writing the debugging logs for each job.
+
